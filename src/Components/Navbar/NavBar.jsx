@@ -5,17 +5,17 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div className="navBarContainer">
-      <div>
+      <div className="linksLogo">
         <img src={storeLogo} alt="" />
+        <ul className="navLinks">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </div>
-      <ul className="navLinks">
-        <li>Collections</li>
-        <li>Men</li>
-        <li>Women</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-      <div>
+      <div className="cart_avatar">
         <img src={cartIcon} alt="" />
         <img src={avatar} alt="" width="40px" />
       </div>

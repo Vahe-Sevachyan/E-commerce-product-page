@@ -1,8 +1,32 @@
 .navBarContainer {
   display: flex;
   justify-content: center;
-  width: ;
+  align-items: center;
+  height: 8vh;
+  width: 50rem;
 }
 .navLinks {
   display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+  list-style-type: none;
+}
+
+.linksLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vh;
+  margin-right: auto;
+}
+.cart_avatar {
+  display: flex;
+  height: 3vh;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    /* Adjust styles for small screens */
+  }
 }
