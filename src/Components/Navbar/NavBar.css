@@ -1,6 +1,7 @@
 .navSection {
   display: flex;
   justify-content: center;
+  /* border: solid blue 1px; */
 }
 .navBarContainer {
   display: flex;
@@ -8,7 +9,7 @@
   align-items: center;
   height: 8vh;
   width: 65rem;
-  border: solid black 1px;
+  border-bottom: 1px solid grey;
 }
 .navLinks {
   display: flex;
@@ -22,13 +23,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2vh;
+  /* text-align: center;
+  text-align: inherit; */
+  /* height: 2vh; */
   min-width: 30rem;
-  border: solid red 1px;
+  /* border: solid red 1px; */
 }
 .avatar-section {
+  width: 5rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 3vh;
+  /* border: solid red 1px; */
 }
 
 @media screen and (max-width: 600px) {

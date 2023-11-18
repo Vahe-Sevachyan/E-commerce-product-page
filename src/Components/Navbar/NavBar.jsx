@@ -18,7 +18,7 @@ const NavBar = () => {
         </div>
         <div className="avatar-section">
           <img src={cartIcon} alt="" />
-          <img src={avatar} alt="" width="40px" />
+          <img src={avatar} alt="" width="35px" />
         </div>
       </div>
     </div>
