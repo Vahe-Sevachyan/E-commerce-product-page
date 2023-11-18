@@ -1,30 +1,36 @@
-.navBarContainer {
+.navSection {
   display: flex;
   justify-content: center;
+}
+.navBarContainer {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 8vh;
-  width: 50rem;
+  width: 65rem;
+  border: solid black 1px;
 }
 .navLinks {
   display: flex;
   justify-content: center;
   justify-content: space-between;
   align-items: center;
-  width: 20vw;
+  width: 20rem;
   list-style-type: none;
 }
-
-.linksLogo {
+.nav-links-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 2vh;
-  margin-right: auto;
+  min-width: 30rem;
+  border: solid red 1px;
 }
-.cart_avatar {
+.avatar-section {
   display: flex;
   height: 3vh;
 }
+
 @media screen and (max-width: 600px) {
   .navbar {
     /* Adjust styles for small screens */
