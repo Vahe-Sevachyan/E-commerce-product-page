@@ -1,7 +1,6 @@
 .navSection {
   display: flex;
   justify-content: center;
-  /* border: solid blue 1px; */
 }
 .navBarContainer {
   display: flex;
@@ -23,11 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-align: center;
-  text-align: inherit; */
-  /* height: 2vh; */
   min-width: 30rem;
-  /* border: solid red 1px; */
 }
 .avatar-section {
   width: 5rem;
@@ -35,11 +30,4 @@
   align-items: center;
   justify-content: space-between;
   height: 3vh;
-  /* border: solid red 1px; */
-}
-
-@media screen and (max-width: 600px) {
-  .navbar {
-    /* Adjust styles for small screens */
-  }
 }
