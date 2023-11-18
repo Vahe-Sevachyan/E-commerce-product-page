@@ -31,3 +31,9 @@
   justify-content: space-between;
   height: 3vh;
 }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    /* Adjust styles for small screens */
+  }
+}
