@@ -7,7 +7,7 @@ import mainImage2 from "../../assets/images/image-product-2.jpg";
 import mainImage3 from "../../assets/images/image-product-3.jpg";
 import mainImage4 from "../../assets/images/image-product-4.jpg";
 
-const imageList = {
+const ImageList = {
   mainImage1: mainImage1,
   mainImage2: mainImage2,
   mainImage3: mainImage3,
@@ -18,8 +18,8 @@ const imageList = {
   TNImageFour: TNImageFour,
 };
 
-export const smallImageList = {
-  TNImageOne: TNImageOne,
-};
+// export const smallImageList = {
+//   TNImageOne: TNImageOne,
+// };
 
-export default imageList;
+export default ImageList;
