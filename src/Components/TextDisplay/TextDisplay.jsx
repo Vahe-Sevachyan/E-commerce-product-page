@@ -1,6 +1,7 @@
+import "./TextDisplay.css";
 const TextDisplay = () => {
   return (
-    <section>
+    <section className="text-display-container">
       <h3>SNEAKER COMPANY</h3>
       <h3>Fall Limited Edition Sneakers</h3>
       <p>
