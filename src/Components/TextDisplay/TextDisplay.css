@@ -1,4 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&family=Black+Ops+One&family=Kumbh+Sans:wght@400;700&family=Oleo+Script:wght@700&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@300;400&family=Roboto:wght@400;500&display=swap");
 .text-display-container {
   border: 1px solid rgb(48, 184, 112);
   width: 30rem;
+}
+.sneaker-header {
+  color: hsl(26, 100%, 55%);
+  font-family: "kumbh sans";
+  font-weight: 400;
+  margin-top: 5rem;
+}
+.shoe-description {
+  font-family: "kumbh sans";
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.limited-edition-title {
+  font-size: 2.5rem;
+  font-family: "kumbh sans";
+  font-weight: 400;
+}
+.price-container {
+  border: 1px solid rgb(48, 184, 112);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+  font-family: "kumbh sans";
+}
+.price {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
