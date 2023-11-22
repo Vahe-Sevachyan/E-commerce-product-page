@@ -14,11 +14,14 @@ const TextDisplay = () => {
         <span className="discount-percentage">50%</span>
       </div>
       <span>$250.00</span>
-      <div>
-        <button>-</button>
-        <span>3</span>
-        <button>+</button>
-        <button>Add to cart</button>
+      <div className="button-container">
+        <div className="plus-minus-buttons">
+          <button>-</button>
+          <span>3</span>
+          <button>+</button>
+        </div>
+
+        <button className="add-to-cart-btn">Add to cart</button>
       </div>
     </section>
   );

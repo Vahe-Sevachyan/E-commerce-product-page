@@ -26,8 +26,35 @@
   align-items: center;
   width: 10rem;
   font-family: "kumbh sans";
+  margin: 2rem 1rem 1rem 0;
 }
 .price {
   font-size: 1.5rem;
   font-weight: 400;
+}
+.button-container {
+  display: flex;
+}
+.plus-minus-buttons {
+  width: 7rem;
+  background-color: rgb(220, 222, 223);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.4rem;
+  margin-right: 1rem;
+}
+.plus-minus-buttons button {
+  background-color: rgb(220, 222, 223);
+  padding: 0.8rem;
+  /* width: 3rem; */
+  border: none;
+  border-radius: 0.4rem;
+}
+.add-to-cart-btn {
+  border: none;
+  background-color: hsl(26, 100%, 55%);
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  width: 12rem;
 }
